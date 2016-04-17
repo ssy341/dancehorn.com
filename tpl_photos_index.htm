@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {dede:include filename="include_head.htm"/}
+    {dede:include filename="photos_link.htm"/}
+</head>
+<body id="page3">
+<div class="body1">
+    <div class="body2">
+        <div class="body3">
+            <div class="main">
+                <!-- header -->
+                <header>
+                    {dede:include filename="include_nav.htm"/}
+                    {dede:include filename="index_image_loop.htm"/}
+                </header>
+                <!-- / header-->
+                <!-- content -->
+                <section id="content">
+                    <div class="line1 wrapper">
+                        <div class="wrapper tabs" id="articleList">
+                            <article class="col1">
+                                <h2>分类</h2>
+                                <div class="pad">
+                                    <ul class="nav" id="navList">
+
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body4">
+    <div class="main">
+        <section id="content2"> </section>
+    </div>
+</div>
+<!-- / content -->
+<div class="main">
+    <!-- footer -->
+    <footer>
+        {dede:include filename="footer.htm"/}
+    </footer>
+    <!-- / footer -->
+</div>
+{dede:include filename="photos_script.htm"/}
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        {dede:include filename="index_images_code.js"/}
+
+
+        $("input[name='photosGroup']").each(function (index, o) {
+            var obj = $(this);
+            var url = obj.val();
+            var category = obj.attr("category");
+            $.ajax({
+                url: url,
+                success: function (data) {
+                    data = JSON.parse(data);
+                    var imageArray = data[0].images;
+                    var picArray = [];
+                    //组装大图和小图
+                    for (var i = 0, len = imageArray.length; i < len; i++) {
+                        var o1 = imageArray[i];
+                        for (var j = 0; j < len; j++) {
+                            var o2 = imageArray[j];
+                            var o2Obj = o2.title.split("-");
+                            var o1Obj = o1.title.split("-");
+                            if (o1Obj[1] == 'big' && o1Obj[0] == o2Obj[0] && o2.title != o1.title) {
+                                var obj = {};
+                                obj[o2Obj[1]] = o2.url;
+                                obj[o1Obj[1]] = o1.url;
+                                picArray.push(obj);
+                                break;
+                            }
+                        }
+                    }
+
+                    $("#navList").append('<li ' + (index == 0 ? 'class="selected"' : '') + '><a href="#' + category + '">' + category + '</a></li>');
+
+                    var content = '<article class="col2 pad_left1 tab-content" id="' + category + '">';
+                    content += '<h2>' + category + '</h2>';
+                    content += '<ul class="gallery">';
+
+                    $(picArray).each(function (index, object) {
+                        var liHtml = '<li ' + ((index + 1) % 3 == 0 ? 'class="end"' : "") + '> <a href="' + object.big + '" class="lightbox-image" rel="prettyPhoto[' + category + ']" > <img src="' + object.small + '" alt=""> </a> </li>'
+                        content += liHtml;
+                    });
+                    $("#articleList").append(content);
+
+
+                    tabs.init();
+                    // for lightbox
+                    if ($("a[rel^='prettyPhoto']").length) {
+                        $(document).ready(function () {
+                            // prettyPhoto
+                            $("a[rel^='prettyPhoto']").prettyPhoto({
+                                theme: 'light_square'
+                            });
+                        });
+                    }
+                }
+            });
+        });
+    });
+</script>
+
+<script type="text/html" id="articleHtmlTpl">
+    <article class="col2 pad_left1 tab-content" id="Portrait">
+        <h2>Portrait Category</h2>
+        <ul class="gallery">
+            <li> <a href="images/big_img4.jpg" class="lightbox-image" rel="prettyPhoto[group6]" > <img src="images/page3_img4.jpg" alt=""> </a> </li>
+            <li> <a href="images/big_img5.jpg" class="lightbox-image" rel="prettyPhoto[group6]" > <img src="images/page3_img5.jpg" alt=""> </a> </li>
+            <li class="end"> <a href="images/big_img6.jpg" class="lightbox-image" rel="prettyPhoto[group6]" > <img src="images/page3_img6.jpg" alt=""> </a> </li>
+        </ul>
+    </article>
+</script>
+<div>
+    {dede:arclist flag='p' row='5'}
+    <input type="hidden" name="photosGroup" value="[field:arcurl/]" category="[field:title function='html2text(@me)'/]">
+    {/dede:arclist}
+</div>
+</body>
+</html>

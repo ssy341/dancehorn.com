@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {dede:include filename="include_head.htm"/}
+    {dede:include filename="include_link.htm"/}
+</head>
+<body id="page2">
+<div class="body1">
+    <div class="body2">
+        <div class="body3">
+            <div class="main">
+                <!-- header -->
+                <header>
+                    {dede:include filename="include_nav.htm"/}
+                </header>
+                <!-- / header-->
+                <!-- content -->
+                <section id="content">
+                    <div class="wrapper">
+                        <h2>{dede:field.title/}</h2>
+                        <div class="wrapper">
+                            <div class="info">
+                                <small>时间:</small>
+                                {dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}
+                                <small>来源:</small>
+                                {dede:field.source/}
+                                <small>作者:</small>
+                                {dede:field.writer/}
+                                <small>点击:</small>
+                                <script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}"
+                                        type='text/javascript' language="javascript"></script>
+                                次
+                            </div>
+                            <!-- /info -->
+                            <div class="content">
+                                <table width='100%'>
+                                    <tr>
+                                        <td>
+                                            {dede:field.body/}
+                                            (责任编辑：{dede:adminname/})
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- /content -->
+                            <div class="dede_pages">
+                                <ul class="pagelist">
+                                    {dede:pagebreak/}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / content -->
+<div class="main">
+    <!-- footer -->
+    <footer>
+        {dede:include filename="footer.htm"/}
+    </footer>
+    <!-- / footer -->
+</div>
+</body>
+</html>

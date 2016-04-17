@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {dede:include filename="include_head.htm"/}
+    {dede:include filename="include_link.htm"/}
+</head>
+<body id="page1">
+<div class="body1">
+    <div class="body2">
+        <div class="body3">
+            <div class="main">
+                <!-- header -->
+                <header>
+                    {dede:include filename="include_nav.htm"/}
+                    {dede:include filename="index_image_loop.htm"/}
+                </header>
+                <!-- / header-->
+                <!-- content -->
+                <section id="content">
+                    <div class="line1">
+                        <div class="line2 wrapper">
+                            <div class="wrapper">
+                                {dede:include filename="include_shortly_about_me.htm"/}
+                                {dede:include filename="include_articl_experiences.htm"/}
+                                {dede:include filename="include_what_is_news.htm"/}
+                            </div>
+                            <div class="wrapper buttons">
+                                <article class="col1"> <a href="{dede:global.cfg_cmsurl/}/about" class="button">阅读更多</a> </article>
+                                <article class="col2 pad_left1"> <a href="{dede:global.cfg_cmsurl/}/news" class="button">阅读更多</a> </article>
+                                <article class="col3 pad_left1"> <a href="{dede:global.cfg_cmsurl/}/news" class="button">阅读更多</a> </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body4">
+    <div class="main">
+        <section id="content2">
+            <div class="line2 wrapper">
+                <div class="wrapper">
+                    <article class="col1">
+                        <h2>My Philosophy</h2>
+                        <div class="wrapper">
+                            <figure class="left marg_right1"><img src="{dede:global.cfg_templets_skin/}/images/page1_img2.jpg" alt=""></figure>
+                            <p> <strong>At vero eos et accusamus iusto</strong> odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque <a href="#">corrupti quos dolores</a> et quas moles- tias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt. </p>
+                        </div>
+                        <div class="pad">
+                            <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. </p>
+                        </div>
+                    </article>
+                    {dede:include filename="include_coming_soon.htm"/}
+                </div>
+                <div class="wrapper buttons">
+                    <article class="col1"> <a href="#" class="button">Read More</a> </article>
+                    <article class="col3 pad_left1"> <a href="#" class="button">Read More</a> </article>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<!-- / content -->
+<div class="main">
+    <!-- footer -->
+    <footer>
+        {dede:include filename="footer.htm"/}
+    </footer>
+    <!-- / footer -->
+</div>
+
+{dede:include filename="include_script.htm"/}
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#menu").find("li").first().addClass("active");
+        {dede:include filename="index_images_code.js"/}
+    });
+</script>
+<div align=center>
+
+
+
+
+
+</div>
+</body>
+</html>
