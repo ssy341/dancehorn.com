@@ -1,14 +1,21 @@
 <div class="wrapper">
     <h1><a href="index.html" id="logo"></a></h1>
-    <form id="search" action="#" method="post">
-        <div>
-            <input type="submit" class="submit" value="">
-            <input class="input" type="text" value="Site Search" onBlur="if(this.value=='') this.value='Site Search'" onFocus="if(this.value =='Site Search' ) this.value=''">
-        </div>
-    </form>
+
+    <!--百度搜索-->
+    <script type="text/javascript">
+        (function () {
+            document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));
+            var bdcs = document.createElement('script');
+            bdcs.type = 'text/javascript';
+            bdcs.async = true;
+            bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=15988856389786613451' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date() / 3600000);
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(bdcs, s);
+        })();
+    </script>
     <nav>
         <ul id="menu">
-            <li><a href="{dede:global.cfg_cmsurl/}/index.html">主页</a></li>
+            <li><a href="{dede:global.cfg_cmsurl/}/">主页</a></li>
             {dede:channel type='top' row='10' currentstyle="<li class='active'><a href='~typelink~'>~typename~</a></li>" }
             <li><a href="[field:typeurl/]">[field:typename/]</a></li>
             {/dede:channel}
