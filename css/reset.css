@@ -11,11 +11,15 @@ a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, bo
 ol, ul {
 	list-style:none
 }
+ul li {
+    float:left;
+    padding: 0 5px;
+}
 blockquote, q {
 	quotes:none
 }
 table, table td {
-	padding:0;
+    padding: 5px;
 	border:none;
 	border-collapse:collapse
 }
@@ -27,4 +31,10 @@ embed {
 }
 * {
 	border:none
+}
+
+#ContactForm .error {
+    font-family: 'Ariel', sans-serif;
+    font-size: 12px;
+    color: #c85849;
 }
