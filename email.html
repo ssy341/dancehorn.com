@@ -1,0 +1,19 @@
+
+
+<script src="js/smtp.js"></script>
+<script>
+
+
+
+
+Email.send({
+    SecureToken : "5495e5a7-3382-4f0f-bab5-706a92509ac6",
+    To : 'keith@thxopen.com',
+    From : "keith@thxopen.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+
+</script>
