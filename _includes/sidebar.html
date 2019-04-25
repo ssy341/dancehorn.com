@@ -53,28 +53,30 @@
   </div>
 
   <div class="widget widget-newsletter">
-    <h3 class="widget-title">Newsletter</h3>
-    <div class="newsletter-subtitle">Get Interesting News</div>
-    <div class="newsletter-text">Receive the latest news via email.</div>
-    <form class="c-newsletter-form validate" action="{% if site.mailchimp %}//{{site.mailchimp}}{% else %}#{% endif %}" method="POST"
-      id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+    <h3 class="widget-title">联系我</h3>
+    <div class="newsletter-text">发送信息到我的Email.</div>
+
       <div class="newsletter-group">
         <div class="newsletter-group-top">
-          <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+          <label class="screen-reader-text" for="mce-email">您的E-mail</label>
           <i class="email-icon ion ion-ios-mail"></i>
-          <input class="newsletter-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="E-mail">
+          <input class="newsletter-email required email" id="mce-email" type="text" name="EMAIL" placeholder="您的E-mail">
         </div>
-        <input class="newsletter-button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Subscribe">
+        <div class="newsletter-group-top">
+          <label class="screen-reader-text" for="mce-content">内容</label>
+          <i class="email-icon ion ion-ios-text"></i>
+          <textarea class="newsletter-email required email" name="content" id="mce-content" cols="30" rows="10" placeholder="内容"></textarea>
+        </div>
+        <button class="newsletter-button" id="mc-embedded-subscribe">发送</button>
       </div>
-    </form>
   </div>
 
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">
-    <h3 class="widget-title">Instagram</h3>
+    <h3 class="widget-title">照片墙</h3>
     <div class="instagram-box">
       <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
-      <a class="instagram-prof" href="#">&#64;UserName</a>
+<!--      <a class="instagram-prof" href="#">&#64;UserName</a>-->
     </div>
   </div>
   {% endif %}

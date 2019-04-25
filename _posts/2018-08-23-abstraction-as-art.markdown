@@ -1,26 +1,45 @@
 ---
 layout: post
-title:  Abstraction as art
-date:   2018-08-23 16:03:50 +0300
+title:  成都音乐会 幻想之夜 川音【网上订票】- 四川
+date:   2016-04-17 16:03:50 +0300
 image:  04.jpg
 tags:   Art
 ---
-Unicorn vegan humblebrag whatever microdosing, yr pabst post-ironic chartreuse. IPhone irony fingerstache microdosing juice poutine. Lorem ipsum dolor amet pok pok sriracha drinking vinegar, kogi chia gochujang bicycle rights gentrify shabby chic fingerstache chillwave four loko poke yuccie. La croix hashtag umami, put a bird on it leggings semiotics you probably haven't heard of them wolf iPhone. Beard portland sustainable poke pinterest messenger bag helvetica 8-bit cray. Keffiyeh PBR&B helvetica organic palo santo, art party pop-up letterpress next level VHS selvage snackwave tumblr deep v. Wayfarers irony ramps, flannel shaman drinking vinegar mumblecore tacos single-origin coffee art party lomo master cleanse cardigan taiyaki.
 
-Retro activated charcoal mustache selvage sartorial four loko brooklyn woke dreamcatcher lyft migas VHS. Bitters celiac flannel schlitz aesthetic echo park polaroid. Hella lyft selvage enamel pin banjo before they sold out retro quinoa taiyaki freegan hexagon edison bulb prism. Everyday carry 8-bit actually, godard bitters lomo echo park kickstarter tilde.
+## 内容简介
 
-Gluten-free bicycle rights kogi ramps chartreuse lyft. Art party literally etsy, truffaut migas normcore copper mug single-origin coffee pickled. Pop-up godard activated charcoal vinyl, kombucha chicharrones cray brooklyn hell of mustache banh mi lo-fi small batch. Ugh literally cred gluten-free. Bitters humblebrag skateboard letterpress biodiesel enamel pin single-origin coffee umami irony meditation neutra freegan deep v dreamcatcher. Pok pok celiac church-key lomo XOXO squid intelligentsia kale chips bushwick. Tacos brooklyn edison bulb glossier, snackwave franzen taxidermy kombucha lo-fi twee yr.
+徐暄涵，5岁学习钢琴，8岁开始学习大提琴，曾先后师从陈爱群、何兰卿老师。
+9岁以专业第一名考入上海音乐学院附小，师从上海音乐学院管弦系主任李继武教授。
+2015年，徐暄涵前往新加坡读书，跟随国际著名大提琴演奏家，新加坡国立大学杨秀桃音乐学院大提琴教授秦立巍先生继续学习。
+徐暄涵在大提琴学习半年后就开始陆续获得多个国内国际大提琴比赛头奖，其中包括匈牙利第五届大卫.波帕尔国际大提琴比赛第一组第一名，
+香港勋菲尔德国际弦乐比赛大提琴少儿组第一名，北京首届爱琴杯国际大提琴比赛专业D组第一名，中国作品演奏第一名，
+第五届爱琴杯大提琴比赛E组第一名及中国作品第一名。
+    2014年以最小年龄入选第31届上海之春国际艺术节未来音乐家音乐会演出获得成功，上海音乐学院著名的中提琴演奏家教育家沈西蒂教授评价说：“听了六十多年的音乐会，徐暄涵的演奏让我格外感动！”
+    2015年初入选加拿大皇家山音乐学院晨兴音乐桥，并参加多场独奏和室内乐演出，这是一个招收12-18岁最优秀年轻艺术家的国际古典音乐节和培训活动，10岁的徐暄涵以优异表现破格录取，并获得全奖。
+    2015年4月，在杭州市音乐家协会的鼎力支持下，10岁的徐暄涵和杭州爱乐乐团合作在杭州大剧院成功举办大提琴独奏音乐会。杭州媒体评价：“这是一场超越年龄的视听盛宴！”
+    在新加坡最近的一场演出中，国立大学杨秀桃音乐学院院长 Bernard Lanskey教授评价徐暄涵的演奏是 “Truly world class!" 
+    年仅11岁的徐暄涵，她的音乐足迹已经到过世界多个国家和地区，在这些成绩背后是徐暄涵的才能与执着，以及她对大提琴演奏极其热忱的内心和付出的努力！
+    
+    
+## 演出曲目
 
-![]({{site.baseurl}}/img/04.jpg)
+H.柏辽兹//幻想交响曲,H 48
+    法国音乐家柏辽兹的《幻想交响曲》以充满想象力的管弦语法，为音乐的浪漫主义开启了决定性的大门。在当时，浪漫主义正从文坛、画坛渐次席卷到乐坛，柏辽兹正好恭逢其会。只不过，法国人讲究优雅细致，不像德国追求的是严肃与厚重，因此在交响曲这样讲究形式结构的曲风上，法国人一向少有杰出的发挥。但柏辽兹这位鬼才却创作了《幻想交响曲》，把守交响曲进入浪漫主义的第一个关口，也打破一般人认为“法国人不擅创作交响曲”的观念。
+   柏辽兹的《幻想交响曲》不仅是柏辽兹个人的代表作， 更是音乐史上极为重要的交响乐作品。《幻想交响曲》极富独创性，特别是在音乐中直接引入了标题意义。本曲问世之后， 一时造成了极大的轰动。柏辽兹具有多愁善感的性格，其带有病态的梦想和燃烧着的热情，使他摆脱了形式上受约束的古典交响曲，而创造出了一种全新的风格。他不像门德尔松那样引用客观的标题，而是大胆地使音乐成为标题的附属品，并在这一交响曲中构成了自传式的内容。 全曲在结构、和声与旋律方面都存在着大胆的创新，由此开创了自由浪漫主义音乐的道路。
+    全曲共分为五个乐章，每一个乐章都附有作者自己加上去的标题：
+    第一乐章 "梦、热情"
 
-Typewriter jean shorts literally godard la croix. Put a bird on it wayfarers distillery taiyaki knausgaard +1, hella fixie. Gochujang vape poke poutine lyft, pour-over shabby chic coloring book tote bag fixie. Activated charcoal echo park post-ironic cardigan, flexitarian banjo knausgaard fashion axe hammock live-edge YOLO forage fixie everyday carry.
+    第二乐章 "舞会"
+    第三乐章 "原野风光"
+    第四乐章 "走向断头台"
+    第五乐章 "魔鬼的晚会之梦--魔女的回旋曲"
 
-Kickstarter +1 brunch hell of twee asymmetrical cardigan hella forage humblebrag. Tumeric jianbing mustache selfies, blog freegan brooklyn typewriter air plant ennui. Poke snackwave chia vaporware normcore. Chambray brooklyn poutine polaroid. Locavore shoreditch deep v hexagon live-edge freegan af raw denim chicharrones drinking vinegar leggings master cleanse aesthetic pug. Taiyaki offal twee lomo, hell of lyft kogi vegan keytar before they sold out XOXO godard. Slow-carb quinoa pitchfork tumblr biodiesel.
+ 
 
-Live-edge williamsburg semiotics organic. Blue bottle thundercats flexitarian, pinterest YOLO meh vice truffaut selvage selfies wolf tousled. Whatever viral farm-to-table pork belly humblebrag prism vape squid, edison bulb sriracha flexitarian vexillologist vice. Locavore blog wolf bicycle rights yr literally vaporware vinyl.
+C.圣-桑//第一大提琴协奏曲,Op.33
 
-Next level lo-fi yuccie bitters echo park tacos single-origin coffee man braid sartorial. Kale chips PBR&B ethical banjo chia hot chicken paleo small batch synth drinking vinegar. Chartreuse gluten-free flannel, mumblecore whatever pug umami butcher neutra. Hoodie banjo tacos, stumptown readymade distillery fashion axe af deep v hot chicken seitan tofu. Listicle vape portland, art party mlkshk yuccie YOLO austin 8-bit. Vaporware vinyl artisan, roof party deep v banjo cronut.
-
-Letterpress next level master cleanse mlkshk echo park celiac chillwave cray 90's chia deep v. Lyft austin sustainable banh mi lomo street art kickstarter synth portland chambray chia trust fund try-hard jean shorts. Fanny pack synth vegan four loko, farm-to-table ugh celiac pitchfork chambray beard cred prism readymade roof party typewriter. Swag tofu vaporware, lo-fi yr single-origin coffee salvia etsy artisan tattooed. Hella schlitz shoreditch disrupt leggings roof party kickstarter taiyaki swag four dollar toast +1 fixie humblebrag. Pour-over air plant literally bespoke hella raw denim. Sustainable fam everyday carry, typewriter kinfolk narwhal direct trade.
-
-Man braid sustainable affogato pinterest leggings. Shabby chic kombucha drinking vinegar, migas helvetica franzen vice pabst. Fashion axe YOLO hexagon ramps. Keffiyeh gluten-free williamsburg kombucha. Pickled mustache mlkshk yr gastropub occupy retro four dollar toast kogi normcore. Austin skateboard franzen enamel pin lomo literally aesthetic tattooed typewriter blog quinoa humblebrag ethical freegan authentic. Vaporware crucifix 90's, venmo adaptogen bitters migas.
+    圣-桑（1835-1921）法国作曲家、管风琴和钢琴演奏家、指挥家。他出生于法国巴 黎的农民家庭，幼年即表现出惊人的音乐才能，美国音乐历史学家吉尔伯特·蔡斯认为 “他的早熟堪与莫扎特媲美”。圣－桑五岁起开始作曲，十一岁即以钢琴家姿态登台演出， 十三岁进巴黎音乐学院学管风琴，曾多次在比赛中获奖。1853年起他开始在教堂任管风琴手，其中有四年在尼德尔学校兼任钢琴教授，杜卡和福列都是他的学生。1877年他辞去教堂的职务，埋头作曲。十九世纪下半叶，在法国艺术界出现了一个以振兴民族音乐文化为宗旨的“民族音乐协会”，圣一桑是这个组织的创始人之一。他积极从事音乐活动， 又以钢琴家和指挥家的身份到各国演出。晚年则热衷于旅行，1921年12月16日客死于阿尔及利亚的阿尔及尔城
+    圣-桑共作有2首大提琴协奏曲，这首是第一号，a小调，Op.33作于1872年，单乐章形式，分为三部分。
+    第一乐章：不太快的快板，奏鸣曲式。
+    第二乐章：活泼的小快板，降B大调，短小的谐谑曲。
+    第三乐章：主奏大提琴为主体的结尾。

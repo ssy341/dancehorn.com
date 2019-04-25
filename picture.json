@@ -1,0 +1,12 @@
+---
+layout: null
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title }}",
+      "image" : "{{ site.baseurl }}/img/{{ post.image }}",
+      "url" : "{{ site.baseurl }}{{ post.url }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

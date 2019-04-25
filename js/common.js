@@ -103,21 +103,23 @@ $(function() {
   
 
   /* =======================
-  // Instagram Feed
+  // picture Feed
   ======================= */
-  // userId and accessToken from Matthew Elsom (https://codepen.io/matthewelsom/pen/zrrrLN) for example, for which he thanks a lot!
-  var instagramFeed = new Instafeed({
-    get: 'user',
-    limit: 6,
-    resolution: 'standard_resolution',
-    userId: '8987997106',
-    accessToken: '8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9',
-    template:
-      '<li class="instagram-item"><a href="{{link}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>'
-  });
+
 
   if ($('#instafeed').length) {
-    instagramFeed.run();
+    var template = '<li class="instagram-item"><a href="{{link}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>'
+    $.get("/picture.json", function (data) {
+      if (data) {
+        var size = data.length<9?data.length:9;
+        for (var i = 0; i < size; i++) {
+          var render = template.replace("{{link}}", data[i].url)
+              .replace("{{image}}", data[i].image)
+              .replace("{{caption}}", data[i].title)
+          $('#instafeed').append(render);
+        }
+      }
+    })
   }
 
 
@@ -128,6 +130,35 @@ $(function() {
     $("html, body")
       .stop()
       .animate({ scrollTop: 0 }, "slow", "swing");
+  });
+
+
+  // send email to admin
+  $("#mc-embedded-subscribe").click(function () {
+    var defaultEmail = "keith@thxopen.com";
+    var fromEmail = $("#mce-email").val();
+    var fromBody = $("#mce-content").val();
+
+    if (!fromEmail) {
+      alert("请填写您的邮箱地址");
+      $("#mce-email").focus();
+      return;
+    }
+    if (!fromBody) {
+      $("#mce-content").focus();
+      alert("请填写发送内容");
+      return;
+    }
+
+    Email.send({
+      SecureToken: "5495e5a7-3382-4f0f-bab5-706a92509ac6",
+      To: defaultEmail,
+      From: defaultEmail,
+      Subject: "来自"+fromEmail+"网站留言",
+      Body: fromBody
+    }).then(
+        message => alert(message)
+    );
   });
 
 });
