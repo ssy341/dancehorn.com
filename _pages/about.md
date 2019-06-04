@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于我
-image: 08.jpg
+image: me.jpg
 permalink: /about/
 ---
 
